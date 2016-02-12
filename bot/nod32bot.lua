@@ -243,7 +243,7 @@ function create_config( )
     "filterword",
     "lock_join"
     },
-    sudo_users = {158990680},--Sudo users
+    sudo_users = {177168187},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
@@ -256,64 +256,64 @@ sodu : @behrooZyaghi
 Realm Commands:
 
 !creategroup [Name]
-Create a group
+ساخت گروه 
 
 !createrealm [Name]
-Create a realm
+ساخت گروه مادری 
 
 !setname [Name]
-Set realm name
+انتخاب اسم گروه مادری 
 
 !setabout [GroupID] [Text]
-Set a group's about text
+تنظیم موضوع گروه ها 
 
 !setrules [GroupID] [Text]
-Set a group's rules
+تنظیم قوانین گروه ها
 
 !lock [GroupID] [setting]
-Lock a group's setting
+قفل تنظیمات گروه ها
 
 !unlock [GroupID] [setting]
-Unock a group's setting
+باز کردن تنظیمات گروه ها
 
 !wholist
-Get a list of members in group/realm
+لیست اعضای گروه ها و گروه های مادری 
 
 !who
-Get a file of members in group/realm
+فایل اعضای گروه ها و گروه های مادری
 
 !type
-Get group type
+نوع گروه
 
 !kill chat [GroupID]
-Kick all memebers and delete group
+حذف تمامی اعضای گروه مورد نظر و حذف گروه
 
 !kill realm [RealmID]
-Kick all members and delete realm
+حذف تمامی اعضای گروه مادری و حذف گروه مادری
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+مدیر برای باتفقط سودو میتواند مدیر اتخاب کند
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+حذف مدیر از بات فقط سودو میتواند مدیر حذف کند
 
 !list groups
-Get a list of all groups
+فایل لیست گروه ها 
 
 !list realms
-Get a list of all realms
+فایل لیست گروه های مادری
 
 !log
-Grt a logfile of current group or realm
+نشان دادن امار گروه ها و گروه های مادری
 
 !broadcast [text]
 !broadcast Hello !
-Send text to all groups
-Only sudo users can run this command
+ارسال متن برای تمام گروه ها
+فقط سودو میتواند متن را ارسال کند
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
-This command will send text to [group_id]
+برای ارسال متن به گروه مورد نظر با ایدی گروه
 
 ]],
     help_text = [[
@@ -478,10 +478,10 @@ NOD32 Commands list :
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
-Developer: @behroozYaghi
+Developer: @anonymous1221
 توسعه دهنده
 
-channel: @nod32team
+channel: @bottgcha
 کانال ما
 
 G00D LUCK ^_^
